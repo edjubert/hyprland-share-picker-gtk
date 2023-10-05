@@ -11,3 +11,9 @@ go build .
 sudo mv /usr/bin/hyprland-share-picker ./hyprland-share-picker-bkup
 sudo mv ./hyprland-share-picker-gtk /usr/bin/hyprland-share-picker
 ```
+
+## Make the window floating
+Add this line to your hyprland configuration file
+```
+windowrulev2=float,class:^(hyprland.share.picker)$
+```
