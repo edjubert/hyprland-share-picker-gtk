@@ -1,4 +1,4 @@
-module github.com/edjubert/gtk4_go
+module github.com/edjubert/hyprland-share-picker-gtk
 
 go 1.20
 
