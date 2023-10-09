@@ -11,7 +11,7 @@ exe_src = ['main.go']
 custom_target('hyprland-share-picker-gtk',
     output: 'hyprland-share-picker',
     input: exe_src,
-    command: ['go', 'build', '@INPUT@'],
+    command: ['go', 'build', '-o', '@OUTPUT@', '@INPUT@'],
     build_by_default: true
 )
 
